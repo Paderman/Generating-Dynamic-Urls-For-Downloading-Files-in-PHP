@@ -9,7 +9,7 @@ Dieses Beispiel generiert dynamische Download-Links für eine bestimmte Zeit.<br
 
 ## System requirements / Systemvoraussetzungen
 - Web server (Apache2, ...)
-- PHP (Version 7 & 8)
+- PHP (max. version 7.3)
 - MySQL
 
 Original by: *[webmobtuts.com/backend-development/generating-dynamic-urls-for-downloading-files-in-php/](https://webmobtuts.com/backend-development/generating-dynamic-urls-for-downloading-files-in-php/ "Visit site")*
