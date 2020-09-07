@@ -27,25 +27,7 @@ if(!empty($file->filename) && file_exists(FILES_DIRECTORY.'/'. $file->filename))
  $filepath = FILES_DIRECTORY.'/' . $file;
  
  header('Content-Description: File Transfer');
-    // header('Content-Type: application/octet-stream');
-    header('Content-Disposition: attachment; filename="'.basename($filepath).'"');
-    header('Expires: 0');
-    header('Cache-Control: must-revalidate');
-    header('Pragma: public');
-    header('Content-Length: ' . filesize($filepath));
-    flush(); // Flush system output buffer
-    readfile($filepath);
-    exit;
-}
-
-if(!empty($file->filename) && file_exists(FILES_DIRECTORY.'/'. $file->filename)) {
- 
- $file = urldecode($file->filename);
- 
- $filepath = FILES_DIRECTORY.'/' . $file;
- 
- header('Content-Description: File Transfer');
-    // header('Content-Type: application/octet-stream');
+    header('Content-Type: application/octet-stream');
     header('Content-Disposition: attachment; filename="'.basename($filepath).'"');
     header('Expires: 0');
     header('Cache-Control: must-revalidate');
