@@ -14,6 +14,7 @@ Dieses Beispiel generiert dynamische Download-Links für eine bestimmte Zeit.<br
 
 ## Note / Hinweis
 PHP 7.4 and higher or version 8, the download for bigger files not possible, maybe script not for newer versions? If you have an idea that this script can run on newer versions of PHP, please help.
+
 PHP 7.4 und höher oder Version 8, bei größeren Dateien ist ein Download nicht möglich, vielleicht ist das Script nicht mehr für neuere Versionen kompatibel? Wenn Sie eine Idee haben, wäre es schön wenn Sie helfen können, damit das Script auch mit neueren PHP-Versionen funktioniert.
 
 Original by: *[webmobtuts.com/backend-development/generating-dynamic-urls-for-downloading-files-in-php/](https://webmobtuts.com/backend-development/generating-dynamic-urls-for-downloading-files-in-php/ "Visit site")*
